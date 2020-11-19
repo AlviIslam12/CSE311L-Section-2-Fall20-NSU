@@ -1,0 +1,17 @@
+Task: 1
+
+CREATE TABLE departments (
+     Department_id int(4) PRIMARY KEY,
+     Department_name VARCHAR(30) NOT NULL,
+    Manager_id int(6),
+    Location_id int(4))
+
+Task: 3
+
+CREATE TABLE locations (
+    Location_id int(4) PRIMARY KEY,
+    Street_address VARCHAR(40),
+    Postal_code VARCHAR(12),
+    City VARCHAR(30) NOT NULL,
+    State_province VARCHAR(25),
+    Country_id VARCHAR(2))
