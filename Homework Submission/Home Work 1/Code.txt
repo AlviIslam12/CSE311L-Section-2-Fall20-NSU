@@ -6,6 +6,21 @@ CREATE TABLE departments (
     Manager_id int(6),
     Location_id int(4))
 
+Task:2
+
+CREATE TABLE employees (
+    Employee_id int(6) PRIMARY KEY NOT NULL,
+    First_name VARCHAR(20),
+    Last_name VARCHAR(25) NOT NULL,
+    Email VARCHAR(25) NOT NULL,
+    Phone_number VARCHAR(15),
+    Hire_date date NOT NULL,
+    Job_id VARCHAR(10) NOT NULL,
+    Salary int(8),
+    Commission_pct int(2), 
+    Manager_id int(6),
+    Department_id int(4))
+
 Task: 3
 
 CREATE TABLE locations (
